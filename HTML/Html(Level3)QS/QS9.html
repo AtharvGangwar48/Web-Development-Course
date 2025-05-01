@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QS9</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="sex">Sex :</label>
+             <label for="male">male</label>
+             <input type="radio" name="sex" id="male">
+             <label for="female">female</label>
+             <input type="radio" name="sex" id="female">
+        </div>
+        <div>
+            <label for="place">Country :</label>
+            <select id="place">
+                <option>Select an option</option>
+                <option value="in">India</option>
+                <option value="np">Nepal</option>
+                <option value="us">Usa</option>
+                <option value="cd">Canada</option>
+                <option value="ot">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="msg">Message</label>
+            <textarea name="fed" id="msg" cols="10" rows="2" placeholder="Enter Your Feedback"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="sub" name="sub">
+            <label for="sub">Subscribe?</label>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

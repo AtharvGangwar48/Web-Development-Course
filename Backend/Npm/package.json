@@ -1,0 +1,12 @@
+{
+  "name": "mathsrandom",
+  "version": "1.0.0",
+  "description": "have some small codes of sum, mul, div, and sub",
+  "main": "Maths.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atharv",
+  "license": "ISC",
+  "type": "module"
+}

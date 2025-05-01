@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QS10</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <h2>Feedback Form</h2>
+        </div>
+        <br>
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="mail">Email :</label>
+            <input type="text" id="mail" name="mail">
+        </div> 
+        <br>
+        <div>
+            <label for="msg">Message:</label>
+            <br>
+            <textarea name="fed" id="msg" cols="10" rows="2" placeholder="Enter Your Feedback"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Rate us our of 5</labels>
+            <br>
+            <label for="1">1</label>
+            <input type="radio" name="rate" id="1">
+            <label for="2">2</label>
+            <input type="radio" name="rate" id="2">
+            <label for="3">3</label>
+            <input type="radio" name="rate" id="3">
+            <label for="4">4</label>
+            <input type="radio" name="rate" id="4">
+            <label for="5">5</label>
+            <input type="radio" name="rate" id="5">
+        </div>
+        <br>
+        <div>
+            <button type="submit">Send your Message</button>
+        </div>
+    </form>
+</body>
+</html>

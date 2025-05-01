@@ -1,0 +1,6 @@
+# Ignore node_modules folders at any level
+**/node_modules/
+
+# Other things you might want to ignore
+*.log
+.DS_Store

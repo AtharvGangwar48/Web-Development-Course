@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Page</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 80px;
+            font-weight: bolder;
+            text-decoration: underline dotted;
+            margin: 0%;
+        }
+        h2{
+            font-size: 50px;
+            margin-left: 20px;
+            font-weight: 500;
+            margin-bottom: 0;
+            margin-top: 0;
+            text-decoration: underline dashed;
+        }
+        #text{
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .ctg{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 400px;
+            margin: 30px;
+            border: 5px solid white;
+        }
+        .food{
+            width: 25%;
+            border: 5px solid white;
+        }
+        .pic{
+            height: 100px;
+            width: 100%;
+        }
+        #dis{
+            margin-top: 5px;
+            margin-bottom: 0;
+            margin-left: 75px;
+            margin-right: 75px;
+            height: 100px;
+        }
+        .grey{
+            background-color: rgb(171, 171, 171, 0.8);
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+        .white{
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+        b#head{
+            text-align: center;
+        }
+        .submit{
+            text-align: center;
+            margin: 10px;
+        }
+        button{
+            border: solid rgb(255, 255, 255);
+            background-color: rgb(241, 210, 210);
+            border-radius: 40%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rate & Review</h1>
+        <p style="text-align: center;">***********************************************************************************************************************************************************************************</p>
+        <h2>Product Reviews</h2>
+        <p id="text">People in the world consume over millions of industry made items, the Good Housekeeping Institute has been independently researching and testing products. Our state-of-the-art testing methods are at the core of everything we do here at GH, and the reason why the Good Housekeeping Seal has been the most recognized consumer emblem in the U.S. for over a century.</p>
+        <p style="text-align: center;">***********************************************************************************************************************************************************************************</p>
+    </header>
+    <section>
+        <h2>Chips Item's</h2>
+        <div class="ctg">
+            <div class="food">
+                <div class="pic">
+                    <img id="dis" src="Doritos.png" alt="Doritos">
+                </div>
+                <p class="grey">Item Name: <b>Doritos</b></p> 
+                <p class="white">Seller: <b>Frito-Lay</b></p>
+                <div class="grey">Price: <b>30/pack</b></div>
+                <p class="white">Buy from: <a href="#"><b>link</b></a></p>
+                <div class="grey">
+                    <div class="Review">
+                        <b id="head">Taste:</b>
+                        <br>
+                        <label for="Taste1">Yummy</label>
+                        <input type="radio" name="Taste1" id="Yummy">
+                        <label for="Taste1">Good</label>
+                        <input type="radio" name="Taste1" id="Good">
+                        <label for="Taste1">Bad</label>
+                        <input type="radio" name="Taste1" id="Bad">
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="Review">
+                        <b id="head">Packing:</b>
+                        <br>
+                        <label for="Packing1">Good</label>
+                        <input type="radio" name="packing1" id="Good">
+                        <label for="Packing1">Average</label>
+                        <input type="radio" name="packing1" id="Average">
+                        <label for="Packing1">Bad</label>
+                        <input type="radio" name="packing1" id="Bad">
+                    </div>
+                </div>
+                <div class="grey">
+                    <div class="Review">
+                        <b id="head">Rate it out of 5</b>
+                        <br>
+                        <label for="Rating1">1</label>
+                        <input type="radio" name="Rating1" id="1">
+                        <label for="Rating1">2</label>
+                        <input type="radio" name="Rating1" id="2">
+                        <label for="Rating1">3</label>
+                        <input type="radio" name="Rating1" id="3">
+                        <label for="Rating1">4</label>
+                        <input type="radio" name="Rating1" id="4">
+                        <label for="Rating1">5</label>
+                        <input type="radio" name="Rating1" id="5">
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+                <div class="food">
+                    <div class="pic">
+                        <img id="dis" src="Lays.webp" alt="Lays">
+                    </div>
+                    <p class="grey">Item Name: <b>Lay's</b></p> 
+                    <p class="white">Seller: <b>Pepsi Co.</b></p>
+                    <div class="grey">Price: <b>20/pack</b></div>
+                    <p class="white">Buy from: <a href="#"><b>link</b></a></p>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Taste:</b>
+                            <br>
+                            <label for="Taste2">Yummy</label>
+                            <input type="radio" name="Taste2" id="Yummy">
+                            <label for="Taste2">Good</label>
+                            <input type="radio" name="Taste2" id="Good">
+                            <label for="Taste2">Bad</label>
+                            <input type="radio" name="Taste2" id="Bad">
+                        </div>
+                    </div>
+                    <div class="white">
+                        <div class="Review">
+                            <b id="head">Packing:</b>
+                            <br>
+                            <label for="Packing2">Good</label>
+                            <input type="radio" name="Packing2" id="Good">
+                            <label for="Packing2">Average</label>
+                            <input type="radio" name="Packing2" id="Average">
+                            <label for="Packing2">Bad</label>
+                            <input type="radio" name="Packing2" id="Bad">
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Rate it out of 5</b>
+                            <br>
+                            <label for="Rating2">1</label>
+                            <input type="radio" name="Rating2" id="1">
+                            <label for="Rating2">2</label>
+                            <input type="radio" name="Rating2" id="2">
+                            <label for="Rating2">3</label>
+                            <input type="radio" name="Rating2" id="3">
+                            <label for="Rating2">4</label>
+                            <input type="radio" name="Rating2" id="4">
+                            <label for="Rating2">5</label>
+                            <input type="radio" name="Rating2" id="5">
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+                <div class="food">
+                    <div class="pic">
+                        <img id="dis" src="Pringles.jpg" alt="Pringles">
+                    </div>
+                    <p class="grey">Item Name: <b>Pringles</b></p> 
+                    <p class="white">Seller: <b>Kellvona</b></p>
+                    <div class="grey">Price: <b>80/pack</b></div>
+                    <p class="white">Buy from: <a href="#"><b>link</b></a></p>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Taste:</b>
+                            <br>
+                            <label for="Taste3">Yummy</label>
+                            <input type="radio" name="Taste3" id="Yummy">
+                            <label for="Taste3">Good</label>
+                            <input type="radio" name="Taste3" id="Good">
+                            <label for="Taste3">Bad</label>
+                            <input type="radio" name="Taste3" id="Bad">
+                        </div>
+                    </div>
+                    <div class="white">
+                        <div class="Review">
+                            <b id="head">Packing1:</b>
+                            <br>
+                            <label for="packing3">Good</label>
+                            <input type="radio" name="packing3" id="Good">
+                            <label for="packing3">Average</label>
+                            <input type="radio" name="packing3" id="Average">
+                            <label for="packing3">Bad</label>
+                            <input type="radio" name="packing3" id="Bad">
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Rate it out of 5</b>
+                            <br>
+                            <label for="Rating3">1</label>
+                            <input type="radio" name="Rating3" id="1">
+                            <label for="Rating3">2</label>
+                            <input type="radio" name="Rating3" id="2">
+                            <label for="Rating3">3</label>
+                            <input type="radio" name="Rating3" id="3">
+                            <label for="Rating3">4</label>
+                            <input type="radio" name="Rating3" id="4">
+                            <label for="Rating3">5</label>
+                            <input type="radio" name="Rating3" id="5">
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+                <div class="food">
+                    <div class="pic">
+                        <img id="dis" src="Chetos.png" alt="Chetoos">
+                    </div>
+                    <p class="grey">Item Name: <b>Chetos</b></p> 
+                    <p class="white">Seller: <b>Frito-Lay</b></p>
+                    <div class="grey">Price: <b>50/pack</b></div>
+                    <p class="white">Buy from: <a href="#"><b>link</b></a></p>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Taste:</b>
+                            <br>
+                            <label for="Taste4">Yummy</label>
+                            <input type="radio" name="Taste4" id="Yummy">
+                            <label for="Taste4">Good</label>
+                            <input type="radio" name="Taste4" id="Good">
+                            <label for="Taste4">Bad</label>
+                            <input type="radio" name="Taste4" id="Bad">
+                        </div>
+                    </div>
+                    <div class="white">
+                        <div class="Review">
+                            <b id="head">Packing:</b>
+                            <br>
+                            <label for="packing4">Good</label>
+                            <input type="radio" name="packing4" id="Good">
+                            <label for="packing4">Average</label>
+                            <input type="radio" name="packing4" id="Average">
+                            <label for="packing4">Bad</label>
+                            <input type="radio" name="packing4" id="Bad">
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Rate it out of 5</b>
+                            <br>
+                            <label for="Rating4">1</label>
+                            <input type="radio" name="Rating4" id="1">
+                            <label for="Rating4">2</label>
+                            <input type="radio" name="Rating4" id="2">
+                            <label for="Rating4">3</label>
+                            <input type="radio" name="Rating4" id="3">
+                            <label for="Rating4">4</label>
+                            <input type="radio" name="Rating4" id="4">
+                            <label for="Rating4">5</label>
+                            <input type="radio" name="Rating4" id="5">
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+        </div>
+        <h2>Tech Item's</h2>
+        <div class="ctg tech">
+            <div class="food">
+                <div class="pic">
+                    <img id="dis" src="EarBuds.jpg" alt="EarBuds">
+                </div>
+                <p class="grey">Item Name: <b>NOISE EarBuds</b></p> 
+                <p class="white">Seller: <b>NOISE</b></p>
+                <div class="grey">Price: <b>R$.1199.00</b></div>
+                <p class="white">Buy from: <a href="#"><b>link</b></a></p>
+                <div class="grey">
+                    <div class="Review">
+                        <b id="head">Quality:</b>
+                        <br>
+                        <label for="Quality">Good</label>
+                        <input type="radio" name="Quality" id="Good">
+                        <label for="Quality">Average</label>
+                        <input type="radio" name="Quality" id="Average">
+                        <label for="Quality">Bad</label>
+                        <input type="radio" name="Quality" id="Bad">
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="Review">
+                        <b id="head">Pricing:</b>
+                        <br>
+                        <label for="Pricing">Good</label>
+                        <input type="radio" name="Pricing" id="Good">
+                        <label for="Pricing">Average</label>
+                        <input type="radio" name="Pricing" id="Average">
+                        <label for="Pricing">Bad</label>
+                        <input type="radio" name="Pricing" id="Bad">
+                    </div>
+                </div>
+                <div class="grey">
+                    <div class="Review">
+                        <b id="head">Rate it out of 5</b>
+                        <br>
+                        <label for="Rating5">1</label>
+                        <input type="radio" name="Rating5" id="1">
+                        <label for="Rating5">2</label>
+                        <input type="radio" name="Rating5" id="2">
+                        <label for="Rating5">3</label>
+                        <input type="radio" name="Rating5" id="3">
+                        <label for="Rating5">4</label>
+                        <input type="radio" name="Rating5" id="4">
+                        <label for="Rating5">5</label>
+                        <input type="radio" name="Rating5" id="5">
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+                <div class="food">
+                    <div class="pic">
+                        <img id="dis" src="SmartWatch.webp" alt="SmartWatch">
+                    </div>
+                    <p class="grey">Item Name: <b>Fossil SmartWatch</b></p> 
+                    <p class="white">Seller: <b>FOSSIL pvt. ltd.</b></p>
+                    <div class="grey">Price: <b>R$. 14,099.99</b></div>
+                    <p class="white">Buy from: <a href="#"><b>link</b></a></p>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Quality:</b>
+                            <br>
+                            <label for="Quality2">Good</label>
+                            <input type="radio" name="Quality2" id="Good">
+                            <label for="Quality2">Average</label>
+                            <input type="radio" name="Quality2" id="Average">
+                            <label for="Quality2">Bad</label>
+                            <input type="radio" name="Quality2" id="Bad">
+                        </div>
+                    </div>
+                    <div class="white">
+                        <div class="Review">
+                            <b id="head">Pricing:</b>
+                            <br>
+                            <label for="Pricing2">Good</label>
+                            <input type="radio" name="Pricing2" id="Good">
+                            <label for="Pricing2">Average</label>
+                            <input type="radio" name="Pricing2" id="Average">
+                            <label for="Pricing2">Bad</label>
+                            <input type="radio" name="Pricing2" id="Bad">
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Rate it out of 5</b>
+                            <br>
+                            <label for="Rating6">1</label>
+                            <input type="radio" name="Rating6" id="1">
+                            <label for="Rating6">2</label>
+                            <input type="radio" name="Rating6" id="2">
+                            <label for="Rating6">3</label>
+                            <input type="radio" name="Rating6" id="3">
+                            <label for="Rating6">4</label>
+                            <input type="radio" name="Rating6" id="4">
+                            <label for="Rating6">5</label>
+                            <input type="radio" name="Rating6" id="5">
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+                <div class="food">
+                    <div class="pic">
+                        <img id="dis" src="WirlessCCTVcam.webp" alt="CCTV camera">
+                    </div>
+                    <p class="grey">Item Name: <b>Smart Wireless CCTV cam</b></p> 
+                    <p class="white">Seller: <b>SAMSUNG</b></p>
+                    <div class="grey">Price: <b>R$. 12,999.00</b></div>
+                    <p class="white">Buy from: <a href="#"><b>link</b></a></p>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Quality:</b>
+                            <br>
+                            <label for="Quality3">Good</label>
+                            <input type="radio" name="Quality3" id="Good">
+                            <label for="Quality3">Average</label>
+                            <input type="radio" name="Quality3" id="Average">
+                            <label for="Quality3">Bad</label>
+                            <input type="radio" name="Quality3" id="Bad">
+                        </div>
+                    </div>
+                    <div class="white">
+                        <div class="Review">
+                            <b id="head">Pricing:</b>
+                            <br>
+                            <label for="Pricing3">Good</label>
+                            <input type="radio" name="Pricing3" id="Good">
+                            <label for="Pricing3">Average</label>
+                            <input type="radio" name="Pricing3" id="Average">
+                            <label for="Pricing3">Bad</label>
+                            <input type="radio" name="Pricing3" id="Bad">
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Rate it out of 5</b>
+                            <br>
+                            <label for="Rating7">1</label>
+                            <input type="radio" name="Rating7" id="1">
+                            <label for="Rating7">2</label>
+                            <input type="radio" name="Rating7" id="2">
+                            <label for="Rating7">3</label>
+                            <input type="radio" name="Rating7" id="3">
+                            <label for="Rating7">4</label>
+                            <input type="radio" name="Rating7" id="4">
+                            <label for="Rating7">5</label>
+                            <input type="radio" name="Rating7" id="5">
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+                <div class="food">
+                    <div class="pic">
+                        <img id="dis" src="VisionPro.png" alt="VisionPRO">
+                    </div>
+                    <p class="grey">Item Name: <b>Vision Pro</b></p> 
+                    <p class="white">Seller: <b>Apple</b></p>
+                    <div class="grey">Price: <b>R$. 3.94 Lack only</b></div>
+                    <p class="white">Buy from: <a href="#"><b>link</b></a></p>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Quality:</b>
+                            <br>
+                            <label for="Quality5">Good</label>
+                            <input type="radio" name="Quality5" id="Good">
+                            <label for="Quality5">Average</label>
+                            <input type="radio" name="Quality5" id="Average">
+                            <label for="Quality5">Bad</label>
+                            <input type="radio" name="Quality5" id="Bad">
+                        </div>
+                    </div>
+                    <div class="white">
+                        <div class="Review">
+                            <b id="head">Pricing:</b>
+                            <br>
+                            <label for="Pricing5">Good</label>
+                            <input type="radio" name="Pricing5" id="Good">
+                            <label for="Pricing5">Average</label>
+                            <input type="radio" name="Pricing5" id="Average">
+                            <label for="Pricing5">Bad</label>
+                            <input type="radio" name="Pricing5" id="Bad">
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Review">
+                            <b id="head">Rate it out of 5</b>
+                            <br>
+                            <label for="Rating8">1</label>
+                            <input type="radio" name="Rating8" id="1">
+                            <label for="Rating8">2</label>
+                            <input type="radio" name="Rating8" id="2">
+                            <label for="Rating8">3</label>
+                            <input type="radio" name="Rating8" id="3">
+                            <label for="Rating8">4</label>
+                            <input type="radio" name="Rating8" id="4">
+                            <label for="Rating8">5</label>
+                            <input type="radio" name="Rating8" id="5">
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </section>
+    <p style="text-align: center;">***********************************************************************************************************************************************************************************</p>
+    <footer>
+        <p><b>Note: </b> In case you have any issue/complaint regarding any product, then you can Counnect with us on the given platforms</p>
+        <h4><a href="#">Facebook</a></h4>
+        <h4><a href="#">Twitter</a></h4>
+        <h4>Mail us @<a href="#">reviewing.team@rateandreview.com</a></h4>
+        <h4>Phone No.<a href="#">+11  12345-6789</a></h4>
+    </footer>
+</body>
+</html>

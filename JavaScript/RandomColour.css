@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+div {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 500px;
+    height: 100px;
+}

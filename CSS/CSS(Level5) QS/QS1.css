@@ -1,0 +1,19 @@
+#container{
+    border: 2px solid green;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+}
+.innerbox{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: gray;
+    text-align: center;
+    font-size: 50px;
+}

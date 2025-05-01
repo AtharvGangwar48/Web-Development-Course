@@ -1,0 +1,18 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: wheat;
+    border: 5px solid black;
+    border-radius: 15px ;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+h1{
+    text-align: center;
+    border: dotted black;
+}
+button{
+    border: solid black;
+    border-radius: 25px;
+    background-color: yellow;
+}

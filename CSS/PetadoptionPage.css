@@ -1,0 +1,36 @@
+.card{
+    width: 400px;
+    padding: 10px ;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img{
+    background-size: cover;
+    border-radius: 25px;
+}
+
+h2>i{    
+    color: orange;
+}
+
+span{
+    color: rgb(255, 208, 0);
+}
+
+h4{
+/*  display: flex;
+    flex-direction: row;
+    justify-content: end; */
+    text-align: end;
+    color: seagreen;
+}

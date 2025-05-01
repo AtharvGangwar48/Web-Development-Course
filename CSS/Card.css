@@ -1,0 +1,32 @@
+#Card1{
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    margin-right: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px grey;
+    transition: 1s;
+    background-color: rgb(255, 252, 52);
+}
+.info{
+    text-align: center;
+    transition: 1s;
+}
+#Card1:hover{
+    box-shadow: 10px 10px 12px grey;
+    
+}
+body{
+    background-color: rgb(39, 39, 182);
+    text-align: center;
+}
+.info:hover{
+    text-decoration: underline;
+}
+img{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}

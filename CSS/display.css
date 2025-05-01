@@ -1,0 +1,14 @@
+h1{
+    display: inline;
+}
+span{
+    display: block;
+}
+div>div{
+    height: 50px;
+    width: 50px;
+    border: 5px solid black;
+    background-color: green;
+    margin-bottom: 10px;
+    display: inline-block;
+}

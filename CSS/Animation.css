@@ -1,0 +1,54 @@
+#container{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: pink;
+  /*animation-name: FontAnimation; 
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;*/
+
+  /*  animation-name: WidthAnimation;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in;
+    animation-direction: alternate; */
+    animation: ChangingColour 2s ease-in 2s 3 alternate; 
+}
+@keyframes FontAnimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+@keyframes ChangingColour{
+    0%{
+        background-color: pink;
+    }
+    30%{
+        background-color: green;
+    }
+    50%{
+        background-color: red;
+    }
+    80%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+@keyframes WidthAnimation{
+    from{
+        width: 20px;
+    }
+    to{
+        width: 400px;
+    }
+}

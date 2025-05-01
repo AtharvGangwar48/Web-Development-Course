@@ -1,0 +1,42 @@
+h1{
+    background-color: red;
+    color: azure;   
+}
+/*@media (width: 400px) {
+    h1{
+        background-color: yellow;
+        color: black;
+    }
+    div{
+        height: 50px;
+        width: 50px;
+        background-color: aqua;
+    }
+}*/
+@media (min-width: 700px) {
+    h1{
+        background-color: yellow;
+        color: black;
+    }
+    div{
+        height: 50px;
+        width: 50px;
+        background-color: aqua;
+    }
+}
+@media (max-width: 500px) {
+    h1{
+        background-color: green;
+        color: yellow;
+    }
+    div{
+        height: 50px;
+        width: 50px;
+        background-color: yellow;
+    }
+}
+@media (orientation: landscape){
+    body{
+        background-color: wheat;
+    }
+}

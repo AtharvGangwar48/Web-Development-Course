@@ -1,0 +1,16 @@
+body{
+    background-image: url(BackgroundImg.jpeg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+}
+
+.card{
+    position: fixed;
+    left: 50px;
+    top: 50px;
+}
+
+a{
+    text-decoration: none;
+}

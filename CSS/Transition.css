@@ -1,0 +1,11 @@
+button{
+    background-color: green;
+    text-align: left;
+    transition-duration: 2s;
+    transition-delay: 3s;
+}
+button:hover{
+    background-color: blue;
+    text-align: right;
+    border-radius: 50%;
+}
