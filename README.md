@@ -26,7 +26,7 @@
 
 ## About This Repository
 
-This repository is a complete record of my journey through the **Delta 3.0 Full-Stack Web Development** course by **Apna College**. It contains every concept, practice question, mini-project, and full project I built — from writing my first HTML tag to deploying full-stack MERN applications with databases.
+This repository is a complete record of my journey through the **Delta 3.0 Full-Stack Web Development** course by **Apna College**. It contains every concept, practice question, mini-project, and full project I built from writing my first HTML tag to deploying full-stack MERN applications with databases.
 
 ---
 
@@ -160,9 +160,9 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ### 💖 Thank You, Shradha Khapra Ma'am
 
-**Shradha Khapra Ma'am**, co-founder of Apna College and one of the most dedicated educators in the Indian tech community — thank you from the bottom of my heart. 🌸
+**Shradha Khapra Ma'am**, co-founder of Apna College and one of the most dedicated educators in the Indian tech community. Thank you from the bottom of my heart. 🌸
 
-Your teaching style is nothing short of extraordinary. Every complex concept — whether it was understanding the event loop, mastering MongoDB relationships, or building RESTful APIs — felt approachable and fun because of the way you explained it. You never just taught *what* to do; you taught *why* it works.
+Your teaching style is nothing short of extraordinary. Every complex concept whether it was understanding the event loop, mastering MongoDB relationships, or building RESTful APIs felt approachable and fun because of the way you explained it. You never just taught *what* to do; you taught *why* it works.
 
 > *"You didn't just teach us to code. You taught us to think like developers."*
 
