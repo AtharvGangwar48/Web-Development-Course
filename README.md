@@ -1,13 +1,6 @@
 <div align="center">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" width="80px" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/240px-CSS3_logo.svg.png" width="80px" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="80px" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/240px-React-icon.svg.png" width="80px" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/240px-Node.js_logo.svg.png" width="80px" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png" width="100px" />
-
-# 🚀 Full-Stack MERN Web Development
+  
+# Full-Stack MERN Web Development
 ### Delta 3.0 Batch — Apna College
 
 [![Course](https://img.shields.io/badge/Course-Delta%203.0-blueviolet?style=for-the-badge&logo=book&logoColor=white)](https://www.apnacollege.in)
@@ -19,11 +12,11 @@
 
 ---
 
-## 📜 Certificate of Completion
+## Certificate of Completion
 
 <div align="center">
 
-> 🎓 **I have successfully completed the Full-Stack MERN Web Development course (Delta 3.0) by Apna College.**
+>  **I have successfully completed the Full-Stack MERN Web Development course (Delta 3.0) by Apna College.**
 
 ### 🏆 [View My Certificate → DeltaCertificate.pdf](./DeltaCertificate.pdf)
 
@@ -31,15 +24,15 @@
 
 ---
 
-## 📖 About This Repository
+## About This Repository
 
 This repository is a complete record of my journey through the **Delta 3.0 Full-Stack Web Development** course by **Apna College**. It contains every concept, practice question, mini-project, and full project I built — from writing my first HTML tag to deploying full-stack MERN applications with databases.
 
 ---
 
-## 🗂️ Course Curriculum
+## Course Curriculum
 
-### 🌐 HTML
+### HTML
 > The foundation of every web page.
 
 - Semantic elements, forms, tables, media tags
@@ -48,7 +41,7 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-### 🎨 CSS
+### CSS
 > Making the web beautiful.
 
 - Box Model, Flexbox, Grid, Positioning, Z-index
@@ -60,7 +53,7 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-### ⚡ JavaScript
+### JavaScript
 > Bringing the web to life.
 
 | Topic | Description |
@@ -75,7 +68,7 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-### ⚛️ React
+### React
 > Building modern UIs with components.
 
 - JSX, Components, Props
@@ -84,7 +77,7 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-### 🟢 Node.js
+### Node.js
 > JavaScript on the server.
 
 - Node modules, file system
@@ -93,7 +86,7 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-### 🚂 Express.js
+### Express.js
 > Fast, minimal web framework.
 
 - Routing, middleware, error handling
@@ -104,7 +97,7 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-### 🍃 MongoDB
+### MongoDB
 > NoSQL database for modern apps.
 
 - CRUD with Mongoose
@@ -114,7 +107,7 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-### 🛢️ MySQL
+### MySQL
 > Relational databases.
 
 - SQL queries & schema design
@@ -122,7 +115,7 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-## 🏗️ Projects Built
+## Projects Built
 
 | # | Project | Tech |
 |---|---|---|
@@ -139,7 +132,7 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -161,13 +154,11 @@ This repository is a complete record of my journey through the **Delta 3.0 Full-
 
 ---
 
-## 🙏 Special Thanks
+## Special Thanks 🙏 
 
 <div align="center">
 
 ### 💖 Thank You, Shradha Khapra Ma'am
-
-<img src="https://yt3.googleusercontent.com/ytc/AIdro_laWNBgvjIpVMPKVvZE8Kns6i10P0PBz4rF7B9yUA=s176-c-k-c0x00ffffff-no-rj" width="100px" style="border-radius:50%"/>
 
 **Shradha Khapra Ma'am**, co-founder of Apna College and one of the most dedicated educators in the Indian tech community — thank you from the bottom of my heart. 🌸
 
